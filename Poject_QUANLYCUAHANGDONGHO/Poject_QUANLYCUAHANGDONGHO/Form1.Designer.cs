@@ -47,7 +47,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_FindCus = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -133,11 +133,11 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(557, 224);
+            this.dataGridView2.Location = new System.Drawing.Point(573, 224);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(444, 249);
+            this.dataGridView2.Size = new System.Drawing.Size(428, 249);
             this.dataGridView2.TabIndex = 2;
             // 
             // textBox1
@@ -223,14 +223,15 @@
             this.textBox5.Size = new System.Drawing.Size(165, 22);
             this.textBox5.TabIndex = 8;
             // 
-            // button4
+            // btn_FindCus
             // 
-            this.button4.Location = new System.Drawing.Point(886, 56);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(84, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Tìm";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_FindCus.Location = new System.Drawing.Point(886, 56);
+            this.btn_FindCus.Name = "btn_FindCus";
+            this.btn_FindCus.Size = new System.Drawing.Size(84, 23);
+            this.btn_FindCus.TabIndex = 8;
+            this.btn_FindCus.Text = "Tìm";
+            this.btn_FindCus.UseVisualStyleBackColor = true;
+            this.btn_FindCus.Click += new System.EventHandler(this.btn_FindCus_Click);
             // 
             // button5
             // 
@@ -279,7 +280,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btn_FindCus);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label5);
@@ -323,7 +324,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_FindCus;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox7;
